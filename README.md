@@ -1,8 +1,6 @@
-# meetup-example
+# vue-meetup-website
 
-A meetup will be held on Oct. 28, 19:00. We invited [Anthony Fu](https://github.com/antfu) as our meetup guest. Check the website [Vue Shenzhen](https://vueshenzhen.com) and click `register` button to join our meetup! 
-
-You can also subscribe the wechat official account by scanning the QR Code pasted on website if you would like to get more information about us.
+The website of [Vue Shenzhen](https://vueshenzhen.com)
 
 ## Build Setup
 
