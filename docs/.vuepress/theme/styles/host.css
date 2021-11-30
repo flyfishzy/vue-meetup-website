@@ -4,12 +4,12 @@
     justify-content: center;
     width: 100%;
     gap: 10%;
-    margin: 144px 0;
+    margin: 10px 0;
 }
 
 .host-container .host-box {
-    padding: 30px 32px;
-    width: 220px;
+    padding: 30px 30px;
+    width: 300px;
     min-width: 220px;
     height: 300px;
     display: flex;
@@ -74,7 +74,7 @@
 @media screen and (max-width: 1065px) {
 
     .host-container {
-        margin: 90px 0;
+        margin: 20px 0;
     }
 
     .host-container {
