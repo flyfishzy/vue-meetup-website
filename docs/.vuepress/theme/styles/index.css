@@ -280,6 +280,14 @@
   letter-spacing: 0.05rem;
 }
 
+#theme-body .body-container .body-box h4 {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.0rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1065px) {
 
