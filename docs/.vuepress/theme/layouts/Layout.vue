@@ -47,7 +47,7 @@
             ><span>{{ time }}</span>
           </p>
           <h2>LOCATION · 举办地点</h2>
-          <p> 线上直播<br/>关注B站<a href="https://space.bilibili.com/630975201" target="_blank">VueShenZhen</a>获取直播入口</p>
+          <p> 线上直播<br/>关注B站<a href="https://live.bilibili.com/23180029" target="_blank">VueShenZhen</a>获取直播入口</p>
           <h2>GUEST SPEAKER · 分享嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
           <h2>TOPICS · 分享议题</h2>
