@@ -1,6 +1,6 @@
 module.exports = {
     title: 'VUE SHENZHEN',
-    description: '深圳Vue.js meetup活动',
+    description: '深圳 Vue Shenzhen Meetup活动官方网站',
     head: [
         ['link', {
             rel: 'icon',

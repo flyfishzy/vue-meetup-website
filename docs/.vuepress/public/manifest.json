@@ -1,7 +1,7 @@
 {
     "name": "Vue Shenzhen",
-    "version": "1.0",
-    "manifest_version": 2,
+    "version": "3.0",
+    "manifest_version": 3,
     "description": "Vue.js Meetup in Shenzhen",
     "icons": [
         {"src": "/assets/images/v-logo.png"},
