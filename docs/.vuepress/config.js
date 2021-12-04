@@ -48,7 +48,12 @@ module.exports = {
         }],
         ['@vuepress/pwa', {
             serviceWorker: true,
-            updatePopup: true
+            updatePopup: true,
+            generateSWConfig:{
+                globPatterns: [
+                    '**\/*.{css,js,png,jpg,jpeg,gif,svg,woff,woff2,eot,ttf,otf}',
+                  ]
+            }
         }]
     ]
 }
