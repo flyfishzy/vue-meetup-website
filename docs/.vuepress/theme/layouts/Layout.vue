@@ -51,7 +51,9 @@
           <h2>GUEST SPEAKER · 分享嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
           <h2>TOPICS · 分享议题</h2>
-          <h4>深入解析Vue3优化模式</h4>
+          <h4>Vue3 Virtual DOM 性能优化</h4>
+          <p>Vue3 为了优化运行时性能，对 Virtual DOM 进行了重构。本次分享将带你了解传统 diff 算法的性能瓶颈以及Vue3 对Virtual DOM和diff 算法的改进思路。
+
           <p>您可以在<a href="https://www.wjx.cn/vj/YDuHsz0.aspx" target="_blank">问卷收集</a>中留下感兴趣的问题，活动嘉宾将在线上直播为您解答。</p>
           <h2 >CONTACT US · 联系我们</h2>
           <div class="body-box-code">
