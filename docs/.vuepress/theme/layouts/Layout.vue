@@ -17,7 +17,7 @@
         <h1>VUE SHENZHEN · 深圳</h1>
         <h5>Meetup</h5>
         <a
-          href="https://www.huodongxing.com/event/7620150011723"
+          href="https://www.huodongxing.com/event/3627641935823"
           target="_blank"
           rel="nofollow"
           >Register now · 立刻报名</a
