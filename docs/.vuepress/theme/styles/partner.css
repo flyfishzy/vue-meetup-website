@@ -38,72 +38,64 @@
     height: 30px;
 }
 
+
 /* ---------- mobile-large ---------- */
+
 @media screen and (max-width: 1065px) {
     .partner-container {
         margin: 0;
         gap: 5px 15px;
         padding: 0 30px;
     }
-
     .partner-container .partner-logo {
         margin: 7.5px;
     }
-
     .partner-container .juejin {
         height: 3vw;
     }
-
     .partner-container .huodongx {
         height: 3.5vw;
     }
-
     .partner-container .oschina {
         height: 3vw;
     }
-
     .partner-container .bilibili {
         height: 4vw;
         transform: translateY(-3px);
     }
-
     .partner-container .segmentfault {
         height: 2.5vw;
     }
 }
 
+
 /* ---------- mobile-middle ---------- */
+
 @media screen and (max-width: 620px) {
     .partner-container {
         margin: 0;
         gap: 5px;
         padding: 0 10px;
     }
-
     .partner-container .partner-logo {
         min-height: 15px;
         width: auto;
         margin: 5px 10px;
         flex-shrink: 0;
     }
-
     .partner-container .juejin {
         min-height: 15px;
     }
-
     .partner-container .huodongx {
         min-height: 21px;
     }
-
     .partner-container .oschina {
         min-height: 18px;
     }
-
     .partner-container .bilibili {
         min-height: 24px;
         transform: translateY(-1px);
     }
-
     .partner-container .segmentfault {
         min-height: 15px;
     }

@@ -4,12 +4,12 @@
     justify-content: center;
     width: 100%;
     gap: 10%;
-    margin: 10px 0;
+    margin: 70px 0;
 }
 
 .host-container .host-box {
-    padding: 30px 30px;
-    width: 300px;
+    padding: 30px 32px;
+    width: 220px;
     min-width: 220px;
     height: 300px;
     display: flex;
@@ -56,7 +56,6 @@
     gap: 10px;
 }
 
-
 .host-container .host-box .host-detail .host-text-name {
     font-size: 1.2rem;
     font-weight: 600;
@@ -70,44 +69,40 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+
 /* ---------- mobile-large ---------- */
+
 @media screen and (max-width: 1065px) {
-
     .host-container {
-        margin: 20px 0;
+        margin: 50px 0;
     }
-
     .host-container {
         flex-direction: column;
         gap: 48px;
     }
-
 }
 
-/* ---------- mobile-middle ---------- */
-@media screen and (max-width: 620px) {
 
+/* ---------- mobile-middle ---------- */
+
+@media screen and (max-width: 620px) {
     .host-container .host-box .host-detail {
         margin-top: 16px;
         gap: 5px;
     }
-
     .host-container .host-box {
         padding: 16px 20px;
         height: 220px;
         width: 130px;
     }
-
     .host-container .host-box .host-portrait {
         height: 120px;
         width: 120px;
     }
-
     .host-container .host-box .host-detail .host-text-name {
         font-size: 0.9rem;
         letter-spacing: 0.02rem;
     }
-
     .host-container .host-box .host-detail .host-text-desc {
         font-size: 0.8rem;
     }
