@@ -404,7 +404,7 @@
         top: 42%;
     }
     #theme-banner .banner-container h5 {
-        top: calc(45% + 15px);
+        top: calc(45% + 17px);
         font-size: .8rem;
     }
     #theme-banner .banner-container a {
