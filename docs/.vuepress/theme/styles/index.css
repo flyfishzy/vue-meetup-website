@@ -46,36 +46,45 @@
 /* details */
 
 #theme-banner .banner-container .banner-logo {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     position: absolute;
-    top: calc(36% - 90px);
-    left: calc(50% - 75px);
+    top: calc(36% - 110px);
+    left: calc(50% - 70px);
 }
 
 #theme-banner .banner-container h1 {
     position: absolute;
-    top: 45%;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: #333366;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: .05rem;
 }
 
 #theme-banner .banner-container h5 {
     position: absolute;
-    top: 56%;
+    top: 48%;
     width: 100%;
     text-align: center;
     color: #333366;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 400;
     letter-spacing: .03rem;
+    line-height: .7rem;
 }
 
 #theme-banner .banner-container a {
+    color: #333366;
+    font-size: .9rem;
+    font-weight: 400;
+    letter-spacing: .03rem;
+    text-decoration: none;
+}
+
+#theme-banner .banner-container .register-btn {
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
@@ -85,7 +94,7 @@
     box-sizing: border-box;
     padding: .6rem 1rem;
     position: absolute;
-    top: calc(62% + 40px);
+    top: calc(62% + 30px);
     left: calc(50% - 150px);
     text-align: center;
     vertical-align: middle;
@@ -95,7 +104,7 @@
     box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
 }
 
-#theme-banner .banner-container a:visited {
+#theme-banner .banner-container .register-btn:visited {
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
@@ -103,7 +112,7 @@
     text-decoration: none;
 }
 
-#theme-banner .banner-container a:hover {
+#theme-banner .banner-container .register-btn:hover {
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
@@ -308,19 +317,15 @@
     #theme-banner .banner-container h1 {
         font-size: 1.8rem;
     }
-    #theme-banner .banner-container h5 {
-        font-size: 1rem;
-        top: 55%;
-    }
-    #theme-banner .banner-container a {
+    #theme-banner .banner-container .register-btn {
         font-size: 1rem;
         width: 320px;
         left: calc(50% - 160px);
     }
-    #theme-banner .banner-container a:hover {
+    #theme-banner .banner-container .register-btn:hover {
         font-size: 1rem;
     }
-    #theme-banner .banner-container a:visited {
+    #theme-banner .banner-container .register-btn:visited {
         font-size: 1rem;
     }
     /* ---------- body ---------- */
@@ -404,20 +409,24 @@
         top: 42%;
     }
     #theme-banner .banner-container h5 {
-        top: calc(45% + 17px);
+        top: calc(44% + 8px);
         font-size: .8rem;
     }
     #theme-banner .banner-container a {
+        font-size: .8rem;
+    }
+    #theme-banner .banner-container .register-btn {
         font-size: .9rem;
         width: 240px;
         left: calc(50% - 120px);
         padding: 6.4px 9.6px;
         top: calc(56% + 32px);
+        display: inline;
     }
-    #theme-banner .banner-container a:visited {
+    #theme-banner .banner-container .register-btn:visited {
         font-size: .9rem;
     }
-    #theme-banner .banner-container a:hover {
+    #theme-banner .banner-container .register-btn:hover {
         font-size: .9rem;
     }
     /* ---------- body ---------- */
@@ -487,5 +496,14 @@
         font-size: 1rem;
         margin: 15px 0;
         letter-spacing: .02rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #theme-banner .banner-container a {
+        top: calc(45% + 17px);
+    }
+    #theme-banner .banner-container a {
+        display: none;
     }
 }

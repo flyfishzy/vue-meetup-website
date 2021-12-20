@@ -15,8 +15,11 @@
         />
         <img alt="vue.js" src="/assets/images/v-logo.png" class="banner-logo" />
         <h1>VUE SHENZHEN · 深圳</h1>
-        <h5>Meetup</h5>
-        <a href="http://hdxu.cn/hNY08" target="_blank" rel="nofollow"
+        <h5>
+          <p><a :href="live.link" target="_blank" rel="nofollow">2021.12.30 · Vue Shenzhen Live</a></p>
+          <p>Meetup Online</p>
+        </h5>
+        <a class="register-btn" href="http://hdxu.cn/hNY08" target="_blank" rel="nofollow"
           >Register now · 立刻报名</a
         >
       </div>
