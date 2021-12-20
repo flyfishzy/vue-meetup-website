@@ -73,7 +73,7 @@
     font-size: .9rem;
     font-weight: 400;
     letter-spacing: .03rem;
-    line-height: .7rem;
+    line-height: .8rem;
 }
 
 #theme-banner .banner-container a {
@@ -411,6 +411,7 @@
     #theme-banner .banner-container h5 {
         top: calc(44% + 8px);
         font-size: .8rem;
+        line-height: .5rem;
     }
     #theme-banner .banner-container a {
         font-size: .8rem;
@@ -500,8 +501,8 @@
 }
 
 @media screen and (max-width: 460px) {
-    #theme-banner .banner-container a {
-        top: calc(45% + 17px);
+    #theme-banner .banner-container h5 {
+        top: calc(46% + 3px);
     }
     #theme-banner .banner-container a {
         display: none;
