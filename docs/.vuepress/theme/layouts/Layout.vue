@@ -16,10 +16,10 @@
         <img alt="vue.js" src="/assets/images/v-logo.png" class="banner-logo" />
         <h1>VUE SHENZHEN · 深圳</h1>
         <h5>
-          <p><a :href="live.link" target="_blank" rel="nofollow">2021.12.30 · Vue Shenzhen Live</a></p>
+          <p><a :href="live.link" target="_blank" rel="nofollow">2022.2.24 · Vue Shenzhen Live</a></p>
           <p>Meetup Online</p>
         </h5>
-        <a class="register-btn" href="http://hdxu.cn/hNY08" target="_blank" rel="nofollow"
+        <a class="register-btn" href="http://hdxu.cn/kj1pf" target="_blank" rel="nofollow"
           >Register now · 立刻报名</a
         >
       </div>
@@ -105,43 +105,48 @@ export default {
     return {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
-      time: "2021年12月30日 周四 19:00",
+      time: "2022年2月24日 周四 19:00",
       live: {
         name: "VueShenZhen直播间",
         link: "https://live.bilibili.com/23180029",
       },
       quiz: {
         name: "问卷收集",
-        link: "https://www.wjx.cn/vj/YDuHsz0.aspx",
+        link: "https://www.wjx.cn/vj/hjAnFQN.aspx",
       },
       contact: "扫码关注 VUE SHENZHEN 公众号",
       hostList: [
         {
-          hostName: "戴威 (@edison1105)",
-          hostDesc: "Vue.js Team Member，Vue3 活跃贡献者。",
-          portraitUrl: "/assets/images/avatar.jpg",
-          link: "https://github.com/edison1105",
+          hostName: "Eduardo (@posva)",
+          hostDesc: "Vue.js Core Team Member，Pinia创始人。",
+          portraitUrl: "/assets/images/Eduardo.jpg",
+          link: "https://github.com/posva",
         },
       ],
       topicList: [
         {
-          title: "Vue3 Virtual DOM 性能优化",
+          title: "Beyond state management with Pinia",
           schedule: "19:00 - 20:00",
           description:
-            "Vue3 为了优化运行时性能，对 Virtual DOM 进行了重构。本次分享将带你了解传统 diff 算法的性能瓶颈以及Vue3 对Virtual DOM和diff 算法的改进思路。",
+            "Vue里的Store在大家眼里与状态管理是划等号的，但实际上Store的潜力远不止于此。本次将由Vue 3最新默认状态管理组件Pinia的创始人Eduardo，通过实例帮助大家发掘store的每个可能性！",
         },
       ],
       reviewList: [
         {
-          title: "2021.08.21 Vue Shenzhen Meetup （嘉宾：林成璋、王鹏）",
+          title: "2021.12.30 Vue Shenzhen Meetup （嘉宾：戴威）",
           link:
-            "https://www.bilibili.com/video/BV17L411b7gd?share_source=copy_web",
+            "https://www.bilibili.com/video/BV1uT4y1m7cs?share_source=copy_web",
         },
         {
           title: "2021.10.28 Vue Shenzhen Meetup （嘉宾：Anthony Fu）",
           link:
             "https://www.bilibili.com/video/BV1jL4y1q76J?share_source=copy_web",
         },
+        {
+          title: "2021.08.21 Vue Shenzhen Meetup （嘉宾：林成璋、王鹏）",
+          link:
+            "https://www.bilibili.com/video/BV17L411b7gd?share_source=copy_web",
+        }
       ],
       partnerList: [
         {
