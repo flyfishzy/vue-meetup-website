@@ -19,7 +19,7 @@
           <p><a :href="live.link" target="_blank" rel="nofollow">2022.2.24 · Vue Shenzhen Live</a></p>
           <p>Meetup Online</p>
         </h5>
-        <a class="register-btn" href="http://hdxu.cn/hNY08" target="_blank" rel="nofollow"
+        <a class="register-btn" href="http://hdxu.cn/kj1pf" target="_blank" rel="nofollow"
           >Register now · 立刻报名</a
         >
       </div>
@@ -112,7 +112,7 @@ export default {
       },
       quiz: {
         name: "问卷收集",
-        link: "https://www.wjx.cn/vj/YDuHsz0.aspx",
+        link: "https://www.wjx.cn/vj/hjAnFQN.aspx",
       },
       contact: "扫码关注 VUE SHENZHEN 公众号",
       hostList: [
@@ -125,7 +125,7 @@ export default {
       ],
       topicList: [
         {
-          title: "Pinia: 新一代Store，不止状态管理",
+          title: "Beyond state management with Pinia",
           schedule: "19:00 - 20:00",
           description:
             "Vue里的Store在大家眼里与状态管理是划等号的，但实际上Store的潜力远不止于此。本次将由Vue 3最新默认状态管理组件Pinia的创始人Eduardo，通过实例帮助大家发掘store的每个可能性！",
