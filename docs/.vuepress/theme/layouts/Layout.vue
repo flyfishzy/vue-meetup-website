@@ -16,12 +16,12 @@
         <img alt="vue.js" src="/assets/images/v-logo.png" class="banner-logo" />
         <h1>VUE SHENZHEN · 深圳</h1>
         <h5>
-          <p><a :href="live.link" target="_blank" rel="nofollow">2022.2.24 · Vue Shenzhen Live</a></p>
+          <p><a :href="live.link" target="_blank" rel="nofollow">2022.5.28 · Vue Shenzhen Live</a></p>
           <p>Meetup Online</p>
         </h5>
-        <a class="register-btn" href="http://hdxu.cn/kj1pf" target="_blank" rel="nofollow"
+        <!-- <a class="register-btn" href="http://hdxu.cn/kj1pf" target="_blank" rel="nofollow"
           >Register now · 立刻报名</a
-        >
+        > -->
       </div>
     </div>
     <div id="theme-body">
@@ -105,33 +105,38 @@ export default {
     return {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
-      time: "2022年2月24日 周四 19:00",
+      time: "2022年5月28日 周六 14:00",
       live: {
         name: "VueShenZhen直播间",
         link: "https://live.bilibili.com/23180029",
       },
       quiz: {
         name: "问卷收集",
-        link: "https://www.wjx.cn/vj/hjAnFQN.aspx",
+        link: "https://www.wjx.cn/vj/Q0nTXFd.aspx",
       },
       contact: "扫码关注 VUE SHENZHEN 公众号",
       hostList: [
         {
-          hostName: "Eduardo (@posva)",
-          hostDesc: "Vue.js Core Team Member，Pinia创始人。",
-          portraitUrl: "/assets/images/Eduardo.jpg",
-          link: "https://github.com/posva",
+          hostName: "莫春辉",
+          hostDesc: "华为云Web前端开发专家，华为云Web能力中心低代码平台负责人",
+          portraitUrl: "/assets/images/MoChunhui.png",
+          //link: "https://github.com/posva",
         },
       ],
       topicList: [
         {
-          title: "Beyond state management with Pinia",
-          schedule: "19:00 - 20:00",
+          title: "开启个性化DIY低代码平台新纪元",
+          schedule: "14:00 - 15:00",
           description:
-            "Vue里的Store在大家眼里与状态管理是划等号的，但实际上Store的潜力远不止于此。本次将由Vue 3最新默认状态管理组件Pinia的创始人Eduardo，通过实例帮助大家发掘store的每个可能性！",
+            "很多人会有这样的疑问：“为什么要重复造轮子”。这引出了低代码平台的一个发展趋势：打造满足不同领域需求的低代码引擎，建设定制化低代码平台。本次分享将由华为云Web前端开发专家莫春辉，通过分析互联网采用定制化策略的商业成功案例，阐明个性喜好推荐机制对于低代码平台的借鉴意义。",
         },
       ],
       reviewList: [
+        {
+          title: "2021.2.24 Vue Shenzhen Meetup （嘉宾：Eduardo San Martin）",
+          link:
+            "https://www.bilibili.com/video/BV1CT4y1Q7kE",
+        },
         {
           title: "2021.12.30 Vue Shenzhen Meetup （嘉宾：戴威）",
           link:
