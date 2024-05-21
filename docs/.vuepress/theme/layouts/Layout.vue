@@ -16,7 +16,7 @@
         <img alt="vue.js" src="/assets/images/v-logo.png" class="banner-logo" />
         <h1>VUE SHENZHEN · 深圳</h1>
         <h5>
-          <p><a :href="live.link" target="_blank" rel="nofollow">2022.5.28 · Vue Shenzhen Live</a></p>
+          <p><a :href="live.link" target="_blank" rel="nofollow">2024.6.13 · Vue Shenzhen Live</a></p>
           <p>Meetup Online</p>
         </h5>
         <!-- <a class="register-btn" href="http://hdxu.cn/kj1pf" target="_blank" rel="nofollow"
@@ -105,7 +105,7 @@ export default {
     return {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
-      time: "2022年5月28日 周六 14:00",
+      time: "2024年6月13日 周四 19:00",
       live: {
         name: "VueShenZhen直播间",
         link: "https://live.bilibili.com/23180029",
@@ -117,21 +117,26 @@ export default {
       contact: "扫码关注 VUE SHENZHEN 公众号",
       hostList: [
         {
-          hostName: "莫春辉",
-          hostDesc: "华为云Web前端开发专家，华为云Web能力中心低代码平台负责人",
-          portraitUrl: "/assets/images/MoChunhui.png",
-          //link: "https://github.com/posva",
+          hostName: "曾令卡",
+          hostDesc: "华为云高级前端工程师, OpenTiny开源社区负责人, TinyVue跨端跨框架组件库核心贡献者。",
+          portraitUrl: "/assets/images/zenglinka.jpg",
+          link: "https://github.com/kagol",
         },
       ],
       topicList: [
         {
-          title: "开启个性化DIY低代码平台新纪元",
-          schedule: "14:00 - 15:00",
+          title: "OpenTiny跨框架组件库实现原理：跨Vue、React、Solid原理解析",
+          schedule: "19:00 - 20:00",
           description:
-            "很多人会有这样的疑问：“为什么要重复造轮子”。这引出了低代码平台的一个发展趋势：打造满足不同领域需求的低代码引擎，建设定制化低代码平台。本次分享将由华为云Web前端开发专家莫春辉，通过分析互联网采用定制化策略的商业成功案例，阐明个性喜好推荐机制对于低代码平台的借鉴意义。",
+            "实现组件库跨框架技术是一种提高Web页面开发效率和应用灵活性非常重要的方法。随着前端技术的快速发展，组件库和框架的种类也日益繁多，因此，实现组件库跨框架技术对解决开发痛点、降低开发成本有重要意义。本次分享主要介绍OpenTiny组件库的核心优势和设计理念，并带大家动手实践一个跨Vue、React、Solid框架的mini组件库。",
         },
       ],
       reviewList: [
+        {
+          title: "2022.5.28 Vue Shenzhen Meetup （嘉宾：莫春辉）",
+          link:
+            "https://live.juejin.cn/4354/2914001",
+        },
         {
           title: "2021.2.24 Vue Shenzhen Meetup （嘉宾：Eduardo San Martin）",
           link:
