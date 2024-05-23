@@ -112,7 +112,7 @@ export default {
       },
       quiz: {
         name: "问卷收集",
-        link: "https://www.wjx.cn/vj/Q0nTXFd.aspx",
+        link: "https://www.wjx.cn/vm/hHya7J3.aspx",
       },
       contact: "扫码关注 VUE SHENZHEN 公众号",
       hostList: [
