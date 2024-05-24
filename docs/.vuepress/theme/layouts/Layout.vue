@@ -19,9 +19,9 @@
           <p><a :href="live.link" target="_blank" rel="nofollow">2024.6.13 · Vue Shenzhen Live</a></p>
           <p>Meetup Online</p>
         </h5>
-        <!-- <a class="register-btn" href="http://hdxu.cn/kj1pf" target="_blank" rel="nofollow"
+        <a class="register-btn" href="https://www.huodongxing.com/event/5757071284622" target="_blank" rel="nofollow"
           >Register now · 立刻报名</a
-        > -->
+        >
       </div>
     </div>
     <div id="theme-body">
