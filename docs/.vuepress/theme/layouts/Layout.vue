@@ -52,6 +52,7 @@
             }}</a
             >线上参与
           </p>
+          <p>地点：深圳天安云谷1栋A座3楼14R</p>
           <h2>GUEST SPEAKER · 邀请嘉宾</h2>
           <host-list :hosts="hostList" />
           <h2>TOPICS · 分享议题</h2>
