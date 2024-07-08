@@ -19,7 +19,7 @@
           <p><a :href="live.link" target="_blank" rel="nofollow">2024.7.10 · Vue Shenzhen</a></p>
           <p>线下 Meetup（名额有限，先到先得）</p>
         </h5>
-        <a class="register-btn" href="https://www.huodongxing.com/event/5757071284622" target="_blank" rel="nofollow"
+        <a class="register-btn" href="https://www.huodongxing.com/event/1763562540800" target="_blank" rel="nofollow"
           >Register now · 立刻报名</a
         >
       </div>
@@ -136,7 +136,7 @@ export default {
        {
           title: "2024.6.13 OpenTiny跨框架组件库实现原理（嘉宾：曾令卡）",
           link:
-            "",
+            "https://www.bilibili.com/video/BV1Ys421T7Ns",
         },
         {
           title: "2022.5.28 开启个性化DIY低代码平台新纪元 （嘉宾：莫春辉）",
