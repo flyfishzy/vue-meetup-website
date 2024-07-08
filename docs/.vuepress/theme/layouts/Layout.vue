@@ -16,8 +16,8 @@
         <img alt="vue.js" src="/assets/images/v-logo.png" class="banner-logo" />
         <h1>VUE SHENZHEN · 深圳</h1>
         <h5>
-          <p><a :href="live.link" target="_blank" rel="nofollow">2024.6.13 · Vue Shenzhen Live</a></p>
-          <p>Meetup Online</p>
+          <p><a :href="live.link" target="_blank" rel="nofollow">2024.7.10 · Vue Shenzhen</a></p>
+          <p>线下 Meetup（名额有限，先到先得）</p>
         </h5>
         <a class="register-btn" href="https://www.huodongxing.com/event/5757071284622" target="_blank" rel="nofollow"
           >Register now · 立刻报名</a
@@ -47,22 +47,22 @@
             ><span>{{ time }}</span>
           </p>
           <p>
-            进入<a :href="live.link" target="_blank" rel="nofollow">{{
+            <!-- 进入<a :href="live.link" target="_blank" rel="nofollow">{{
               live.name
-            }}</a
-            >线上参与
+            }}</a -->
+            线下参与，和antfu面对面交流
           </p>
-          <p>地点：深圳天安云谷1栋A座3楼14R</p>
+          <p>地点：深圳天安云谷1栋A座</p>
           <h2>GUEST SPEAKER · 邀请嘉宾</h2>
           <host-list :hosts="hostList" />
           <h2>TOPICS · 分享议题</h2>
           <topic-list :topics="topicList" />
-          <p>
+          <!-- <p>
             您可以在<a :href="quiz.link" target="_blank" rel="nofollow">{{
               quiz.name
             }}</a
             >中留下感兴趣的问题，活动嘉宾将在线上直播为您解答。
-          </p>
+          </p> -->
           <h2>REVIEW · 往期回顾</h2>
           <review-list :reviews="reviewList" />
           <h2 style="margin-bottom: 3vw">CONTACT US · 联系我们</h2>
@@ -106,7 +106,7 @@ export default {
     return {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
-      time: "2024年6月13日 周四 19:00",
+      time: "2024年7月10日 周三 19:00",
       live: {
         name: "VueShenZhen直播间",
         link: "https://live.bilibili.com/23180029",
@@ -118,33 +118,38 @@ export default {
       contact: "扫码关注 VUE SHENZHEN 公众号",
       hostList: [
         {
-          hostName: "曾令卡",
-          hostDesc: "华为云高级前端工程师, OpenTiny开源社区负责人, TinyVue跨端跨框架组件库核心贡献者。",
-          portraitUrl: "/assets/images/zenglinka.jpg",
-          link: "https://github.com/kagol",
+          hostName: "Anthony Fu",
+          hostDesc: "Anthony Fu 是一位狂热的开源爱好者和技术创造者。他目前在 NuxtLabs 工作，并是 Vue、Nuxt 和 Vite 的核心团队成员。",
+          portraitUrl: "/assets/images/antfu.png",
+          link: "https://github.com/antfu",
         },
       ],
       topicList: [
         {
-          title: "OpenTiny跨框架组件库实现原理：跨Vue、React、Solid原理解析",
+          title: "The Set Theory 集合论",
           schedule: "19:00 - 20:00",
           description:
-            "实现组件库跨框架技术是一种提高Web页面开发效率和应用灵活性非常重要的方法。随着前端技术的快速发展，组件库和框架的种类也日益繁多，因此，实现组件库跨框架技术对解决开发痛点、降低开发成本有重要意义。本次分享主要介绍OpenTiny组件库的核心优势和设计理念，并带大家动手实践一个跨Vue、React、Solid框架的mini组件库。",
+            "Anthony 在全职从事开源工作的过程中学到的经验教训。包含使开源项目更成功的技巧和想法。",
         },
       ],
       reviewList: [
+       {
+          title: "2024.6.13 OpenTiny跨框架组件库实现原理（嘉宾：曾令卡）",
+          link:
+            "",
+        },
         {
-          title: "2022.5.28 Vue Shenzhen Meetup （嘉宾：莫春辉）",
+          title: "2022.5.28 开启个性化DIY低代码平台新纪元 （嘉宾：莫春辉）",
           link:
             "https://live.juejin.cn/4354/2914001",
         },
         {
-          title: "2021.2.24 Vue Shenzhen Meetup （嘉宾：Eduardo San Martin）",
+          title: "2021.2.24 Beyond state management with Pinia （嘉宾：Eduardo San Martin）",
           link:
             "https://www.bilibili.com/video/BV1CT4y1Q7kE",
         },
         {
-          title: "2021.12.30 Vue Shenzhen Meetup （嘉宾：戴威）",
+          title: "2021.12.30 Vue3 Virtual DOM性能优化 （嘉宾：戴威）",
           link:
             "https://www.bilibili.com/video/BV1uT4y1m7cs?share_source=copy_web",
         },
